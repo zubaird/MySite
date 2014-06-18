@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-ZubairDesai::Application.config.secret_key_base = '7cb97e1cd56179e0f87915724ffd3fa7023eb3a2eed367fea9bf00aea0fb3a7cf709960d348cc758a69cac76352ae80b45e57ec52092af454585510feaf36da1'
+ZubairDesai::Application.config.secret_key_base = '487f93ce1cea8dd60d5f98734d7954fb0cafdb79d9b6bc14568981a01325965fc922457425651d080fc116a6133822b16d3a1f6114be3561a707fec953dbf71a'
