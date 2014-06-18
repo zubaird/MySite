@@ -3,8 +3,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 
-# Use postgresql as the database for Active Record
-gem 'pg'
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
@@ -30,6 +29,17 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+end
+
+group :development, :test do
+	#Database supported on the Amazon RDS instance
+	gem 'sqlite3'
+end
+
+
+group :production do
+	#Database supported on the Amazon RDS instance
+	gem 'mysql2'
 end
 
 # Use ActiveModel has_secure_password
