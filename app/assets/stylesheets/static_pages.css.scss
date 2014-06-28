@@ -1,3 +1,38 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {
+ /* padding-top: 50px;*/
+ /* padding-bottom: 20px;*/
+}
+
+html,body,section{height:100%;}
+
+section{
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.section1{
+  background-color: #3F3F99;
+}
+.section2{
+  background-image: asset-url("102448_1677.jpg",image);
+}
+.section3{
+  background-image: asset-url("442624_98832432.jpg",image);
+}
+
+
+.cover {
+/*  margin-right: auto;
+  margin-left: auto;*/
+/*  position: relative;
+  min-height: 100%;
+  height: 100%;
+  background-image: asset-url("442624_98832432.jpg",image);*/
+}
+
+
